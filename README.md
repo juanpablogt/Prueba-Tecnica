@@ -73,9 +73,6 @@ Validacion del metodo Post para los reviews:<br>
 
 Para escalar a cientos de libros y usuarios:
 <br>
-Implementaria paginacion y filtros
-<br>
-Indexaria campos criticos y cahearia promedios.
 <br>
 Moveria la logica de negocio a servicios.
 <br>
