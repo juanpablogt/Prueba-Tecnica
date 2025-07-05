@@ -45,7 +45,7 @@ Respuesta de api/books<br>
 ![image](https://github.com/user-attachments/assets/4c493fe6-8ebb-4645-a367-18eb04a84ba4)<br>
 <br>
 
-Api consumiendo el backend<br>
+Vue consumiendo el backend por medio de API<br>
 <br>
 
 ![image](https://github.com/user-attachments/assets/82c0bf58-844c-42b9-91a7-bd9acc9ef55c)<br>
