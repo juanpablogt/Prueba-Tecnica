@@ -9,49 +9,64 @@ Instrucciones de Instalacion:
 1.clonar el proyecto:<br>
   git clone https://github.com/juanpablogt/Prueba-Tecnica.git<br>
   cd Prueba-Tecnica/api-books<br>
+<br>
+2.Instalar las dependencias de PHP<br>
+  composer install<br>
+  <br>
 
-2.Instalar las dependencias de PHP
-  composer install
+3. Crear la base de datos y ejecuta migraciones<br>
+  php bin/console doctrine:database:create<br>
+  php bin/console doctrine:migrations:migrate<br>
+  <br>
 
-3. Crear la base de datos y ejecuta migraciones
-  php bin/console doctrine:database:create
-  php bin/console doctrine:migrations:migrate
+4. Cargar datos de prueba (fixtures)<br>
+   php bin/console doctrine:fixtures:load<br>
+   <br>
 
-4. Cargar datos de prueba (fixtures)
-   php bin/console doctrine:fixtures:load
-
-5. Arrancar el servidor
-    symfony server:start
-
+5. Arrancar el servidor<br>
+    symfony server:start<br>
+<br>
+<br>
 -----------Frontend Vue--------------
+<br>
+1. Ir a la carpeta del frontend<br>
+   cd ../frontend-books<br>
+2. Instalar dependencias si es necesario<br>
+   Node.js y npm.<br>
+3. Configurar la URL de la API<br>
+    Por defecto apunta a http://127.0.0.1:8000/api/books desde localhost:8080.<br>
+    Si la cambias, asegúrate de editar en el código en el archivo donde Axios.<br>
+4. npm run serve<br>
+<br>
+<br>
 
-1. Ir a la carpeta del frontend
-   cd ../frontend-books
-2. Instalar dependencias si es necesario
-   Node.js y npm.
-3. Configurar la URL de la API
-    Por defecto apunta a http://127.0.0.1:8000/api/books desde localhost:8080.
-    Si la cambias, asegúrate de editar en el código en el archivo donde Axios.
-4. npm run serve
+Capturas del sistema funcionando<br>
 
-Capturas del sistema funcionando
+Respuesta de api/books<br>
+<br>
 
-Respuesta de api/books
+![image](https://github.com/user-attachments/assets/4c493fe6-8ebb-4645-a367-18eb04a84ba4)<br>
+<br>
 
-![image](https://github.com/user-attachments/assets/4c493fe6-8ebb-4645-a367-18eb04a84ba4)
+Api consumiendo el backend<br>
+<br>
 
-Api consumiendo el backend
+![image](https://github.com/user-attachments/assets/82c0bf58-844c-42b9-91a7-bd9acc9ef55c)<br>
+<br>
 
-![image](https://github.com/user-attachments/assets/82c0bf58-844c-42b9-91a7-bd9acc9ef55c)
+Registros en la base de datos books:<br>
+<br>
 
-Registros en la base de datos books:
+![image](https://github.com/user-attachments/assets/ac1868f8-2110-410a-83cd-5570ee043550)<br>
+<br>
 
-![image](https://github.com/user-attachments/assets/ac1868f8-2110-410a-83cd-5570ee043550)
+registros en la base de datos reviws:<br>
+<br>
 
-registros en la base de datos reviws:
+![image](https://github.com/user-attachments/assets/e60cf81e-d6be-401b-bbea-f91c416ec784)<br>
+<br>
 
-![image](https://github.com/user-attachments/assets/e60cf81e-d6be-401b-bbea-f91c416ec784)
-
-Validacion del metodo Post para los reviews:
+Validacion del metodo Post para los reviews:<br>
+<br>
 
 ![image](https://github.com/user-attachments/assets/556d94d7-90c7-44fb-ad09-79f6a555da35)
