@@ -3,26 +3,24 @@ Por: Juan Pablo Gonzalez Trejos
 
 <br>
 Instrucciones de Instalacion:
-
+<br>
+<br>
 --------Symfony-------------
-
+<br>
 1.clonar el proyecto:<br>
-  git clone https://github.com/juanpablogt/Prueba-Tecnica.git<br>
-  cd Prueba-Tecnica/api-books<br>
+git clone https://github.com/juanpablogt/Prueba-Tecnica.git<br>
+cd Prueba-Tecnica/api-books<br>
 <br>
 2.Instalar las dependencias de PHP<br>
-  composer install<br>
-  <br>
-
+composer install<br>
+<br>
 3.Crear la base de datos y ejecuta migraciones<br>
 php bin/console doctrine:database:create<br>
 php bin/console doctrine:migrations:migrate<br>
 <br>
-
 4.Cargar datos de prueba (fixtures)<br>
 php bin/console doctrine:fixtures:load<br>
 <br>
-
 5.Arrancar el servidor<br>
 symfony server:start<br>
 <br>
@@ -39,9 +37,7 @@ symfony server:start<br>
 4. npm run serve<br>
 <br>
 <br>
-
 -------------Capturas del sistema funcionando---------------<br>
-
 Respuesta de api/books<br>
 <br>
 
@@ -60,7 +56,7 @@ Registros en la base de datos books:<br>
 ![image](https://github.com/user-attachments/assets/ac1868f8-2110-410a-83cd-5570ee043550)<br>
 <br>
 
-registros en la base de datos reviws:<br>
+registros en la base de datos reviews:<br>
 <br>
 
 ![image](https://github.com/user-attachments/assets/e60cf81e-d6be-401b-bbea-f91c416ec784)<br>
