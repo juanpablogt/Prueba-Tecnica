@@ -1,13 +1,14 @@
 Prueba Técnica: Symfony API + Vue.js <br>
 Por: Juan Pablo Gonzalez Trejos
 
+<br>
 Instrucciones de Instalacion:
 
 --------Symfony-------------
 
-1.clonar el proyecto:
-  git clone https://github.com/juanpablogt/Prueba-Tecnica.git
-  cd Prueba-Tecnica/api-books
+1.clonar el proyecto:<br>
+  git clone https://github.com/juanpablogt/Prueba-Tecnica.git<br>
+  cd Prueba-Tecnica/api-books<br>
 
 2.Instalar las dependencias de PHP
   composer install
