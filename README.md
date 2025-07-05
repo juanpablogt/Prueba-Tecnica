@@ -1,4 +1,4 @@
-Prueba Técnica: Symfony API + Vue.js 
+Prueba Técnica: Symfony API + Vue.js <br>
 Por: Juan Pablo Gonzalez Trejos
 
 Instrucciones de Instalacion:
