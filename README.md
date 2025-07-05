@@ -72,13 +72,13 @@ Validacion del metodo Post para los reviews:<br>
 -----------------------------Respuesta a pregunta opcional-----------------------------------------
 
 Para escalar a cientos de libros y usuarios:
-
-    Implementaría paginación y filtros.
-
-    Indexaría campos críticos y cachearía promedios.
-
-    Movería la lógica de negocio a servicios.
-
-    Añadiría autenticación y roles de usuario.
-
-    Usaría colas para tareas pesadas y optimizaría la infraestructura (balanceo y contenedores).
+<br>
+Implementaria paginacion y filtros
+<br>
+Indexaria campos criticos y cahearia promedios.
+<br>
+Moveria la logica de negocio a servicios.
+<br>
+Aniadiria autenticacion y roles de usuario.
+<br>
+Colas y balanceo de carga y contenedores.
