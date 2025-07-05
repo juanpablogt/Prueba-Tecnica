@@ -38,6 +38,7 @@ symfony server:start<br>
 <br>
 <br>
 -------------Capturas del sistema funcionando---------------<br>
+<br>
 Respuesta de api/books<br>
 <br>
 
