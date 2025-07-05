@@ -14,17 +14,17 @@ Instrucciones de Instalacion:
   composer install<br>
   <br>
 
-3. Crear la base de datos y ejecuta migraciones<br>
-  php bin/console doctrine:database:create<br>
-  php bin/console doctrine:migrations:migrate<br>
-  <br>
+3.Crear la base de datos y ejecuta migraciones<br>
+php bin/console doctrine:database:create<br>
+php bin/console doctrine:migrations:migrate<br>
+<br>
 
-4. Cargar datos de prueba (fixtures)<br>
-   php bin/console doctrine:fixtures:load<br>
-   <br>
+4.Cargar datos de prueba (fixtures)<br>
+php bin/console doctrine:fixtures:load<br>
+<br>
 
-5. Arrancar el servidor<br>
-    symfony server:start<br>
+5.Arrancar el servidor<br>
+symfony server:start<br>
 <br>
 <br>
 -----------Frontend Vue--------------
@@ -40,7 +40,7 @@ Instrucciones de Instalacion:
 <br>
 <br>
 
-Capturas del sistema funcionando<br>
+-------------Capturas del sistema funcionando---------------<br>
 
 Respuesta de api/books<br>
 <br>
